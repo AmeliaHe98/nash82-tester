@@ -20,19 +20,19 @@
 <div class="collapse navbar-collapse" id="navbarNav">
 <ul class="navbar-nav ml-auto">
 <li class="nav-item active">
-<a class="nav-link" href="#">NASH82 </a>
+<a class="nav-link" href="#whatisnash82">NASH82 </a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">SPEAKERS</a>
+<a class="nav-link" href="#speakers">SPEAKERS</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">SCHEDULE</a>
+<a class="nav-link" href="#schedule">SCHEDULE</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">REGISTER</a>
+<a class="nav-link" href="#registration">REGISTER</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">SPONSOR</a>
+<a class="nav-link" href="#sponsors">SPONSOR</a>
 </li>
 </ul>
 </div>
@@ -109,7 +109,7 @@ publication, share their experiences, and help guide the next generation. </p>
 </div>
 <div class="col-md-4 img-fluid">
 <div class="community-pic1">
-<img class="community-pic1" src="img/communitypic1.jpg" alt="community-pic1">
+<img class="community-pic1" src="img/communitypic1.jpg" alt="community-pic1" style="float:left">
 </div>
 </div>
 </div>
@@ -175,7 +175,7 @@ publication, share their experiences, and help guide the next generation. </p>
 <section id="promo">
 <div class="container">
 <p>Register for NASH82</p>
-<a href="#" class="btn btn-primary">Register</a>
+<a href="#registration " class="btn btn-primary">Register</a>
 </div>
 </section>
 <!----------Schedule---------->
@@ -256,23 +256,42 @@ publication, share their experiences, and help guide the next generation. </p>
 <h1>Registration</h1>
 <div class="row">
 <div class="col-md-6 img-center">
-  <form class="registration-form">
-    <div class="form-group">
-      <input type="text" class="form-control" placeholder="Full name">
-    </div>
-    <div class="form-group">
-        <input type="number" class="form-control" placeholder="Contact number">
-      </div>
-      <div class="form-group">
-          <input type="email" class="form-control" placeholder="Email address">
-        </div>
-        <div class="form-group">
-            <input type="text" class="form-control" placeholder="Billing address">
-          </div>
-          <button type="submit" class="btn btn-primary">SUBMIT FOR REGISTRATION</button>
-  </form>
+<form class="registration-form">
+<div class="form-group">
+<input type="text" class="form-control" placeholder="First name">
 </div>
-<div class="col-md-6 img-center"></div>
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Last name">
+</div>
+<div class="form-group">
+<input type="email" class="form-control" placeholder="Email address">
+</div>
+<div class="form-group">
+<input type="number" class="form-control" placeholder="Contact number">
+</div>
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Billing address">
+</div>
+<div class="form-group">
+<textarea rows="4" class="form-control" cols="50" placeholder="Tell us a little about yourself. We'd love to know."></textarea>
+</div>
+
+<button type="submit" class="btn btn-primary">SUBMIT FOR REGISTRATION</button>
+</form>
+</div>
+<div class="col-md-6 contact-info">
+<div class="follow"><b>Address:</b><i class="fas fa-map-marker"></i>
+  6133 University Blvd, Vancouver, BC V6T 1Z1</div>
+<div class="follow"><b>Email:</b><i class="fas fa-envelope"></i>
+  nash82@ubyssey.ca</div>
+<div class="follow"><b>Phone:</b><i class="fas fa-phone"></i>
+  (604)283-2024</div>
+<div class="follow"><label><b>Get Social:</b></label>
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+</div>
+</div>
 </div>
 </div>
 
@@ -309,5 +328,16 @@ This event would not be possible without them.</p>
 </div>
 </div>
 </section>
+<!----------Footer---------->
+<section id="footer">
+  <div class="container text-center"> 
+    <p>Made With <i class="fas fa-heart"></i> by The Ubyssey</p>
+  </div>
+</section>
+<!----------Footer End---------->
+<script src="js/smooth-scroll.polyfills.min.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
 </body>
 </html>
